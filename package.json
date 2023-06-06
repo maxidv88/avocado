@@ -12,6 +12,9 @@
     "start": "next start",
     "type-check": "tsc --noEmit"
   },
+  "engines": {
+    "node": ">=0.10.3 <16"
+  },
   "dependencies": {
     "@types/cors": "^2.8.6",
     "cors": "^2.8.5",
